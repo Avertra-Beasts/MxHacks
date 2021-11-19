@@ -21,4 +21,4 @@
     - the bundle will be included in a `dist` folder in the root directory of the project;
     - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
 
-[specify contribution]
+[specify contribution] Seif Meihear

@@ -34,9 +34,6 @@ function Clock(props) {
     return (
         <div>
             <div>{dateNow}</div>
-
-
-
             <FormControl className="Form">
 
                 <Select
@@ -47,7 +44,6 @@ function Clock(props) {
                     label="TimeZone" >
                     {data.map((element, index) => {
                         return (
-                        
                        <MenuItem key={index} value={element}>
                             {element}
                         </MenuItem>
