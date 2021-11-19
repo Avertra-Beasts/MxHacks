@@ -47,11 +47,10 @@ function Clock(props) {
                     label="TimeZone" >
                     {data.map((element, index) => {
                         return (
-                            <div>
+                        
                        <MenuItem key={index} value={element}>
                             {element}
                         </MenuItem>
-                    </div>
                         )
                        
                     }) }
